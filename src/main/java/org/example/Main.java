@@ -19,11 +19,11 @@ public class Main {
     public static void ex2(){
         Scanner scanner = new Scanner(System.in);
         int arr2_elements = 0;
-        System.out.println("Enter the size for the array");
+        System.out.print("Enter the size for the array: ");
         int n = scanner.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i <= n-1; i++) {
-            System.out.println("Enter num ("+(i+1)+"): ");
+            System.out.print("Enter num ("+(i+1)+"): ");
             arr[i] = scanner.nextInt();
         }
         int[] arr2 = new int[n];
@@ -114,11 +114,11 @@ public class Main {
     }
     public static void ex5(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the size for the arraylist");
+        System.out.print("Enter the size for the arraylist: ");
         int n = scanner.nextInt();
         ArrayList<Integer> arr = new ArrayList<>();
         for (int i = 0; i <= n-1; i++) {
-            System.out.println("Enter num ("+(i+1)+"): ");
+            System.out.print("Enter num ("+(i+1)+"): ");
             arr.add(scanner.nextInt());
         }
         ArrayList<Integer> arr2 = new ArrayList<>();
